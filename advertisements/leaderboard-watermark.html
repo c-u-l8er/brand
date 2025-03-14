@@ -21,7 +21,7 @@
                 background-color: #ffffff;
             }
 
-            .ad-container {
+            .watermark-banner {
                 width: 728px;
                 height: 90px;
                 position: relative;
@@ -30,12 +30,12 @@
             }
 
             /* Pause animations on hover */
-            .ad-container:hover .slide,
-            .ad-container:hover .border-animation {
+            .watermark-banner:hover .banner-slide,
+            .watermark-banner:hover .progress-indicator {
                 animation-play-state: paused;
             }
 
-            .ad-content {
+            .banner-wrapper {
                 display: flex;
                 width: 100%;
                 height: 100%;
@@ -43,7 +43,7 @@
             }
 
             /* Logo styling - adjusted to square */
-            .logo-section {
+            .brand-logo {
                 display: flex;
                 align-items: center;
                 width: 90px; /* Reduced width to match height */
@@ -54,19 +54,19 @@
                 justify-content: center;
             }
 
-            .logo-section img {
+            .brand-logo img {
                 width: 60px; /* Square dimensions */
                 height: 60px;
             }
 
             /* Animated sections */
-            .slides-container {
+            .message-carousel {
                 flex: 1;
                 position: relative;
                 overflow: hidden;
             }
 
-            .slide {
+            .banner-slide {
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -80,18 +80,18 @@
                 opacity: 0;
             }
 
-            .slide:nth-child(1) {
+            .banner-slide:nth-child(1) {
                 animation-delay: 0s;
                 background-color: #f0f0f0;
             }
 
-            .slide:nth-child(2) {
+            .banner-slide:nth-child(2) {
                 animation-delay: 4s;
                 background-color: #ff0000;
                 color: white;
             }
 
-            .slide:nth-child(3) {
+            .banner-slide:nth-child(3) {
                 animation-delay: 8s;
                 background-color: #000000;
                 color: white;
@@ -114,23 +114,23 @@
                 }
             }
 
-            .slide-content {
+            .slide-message {
                 flex: 1;
             }
 
-            .slide h2 {
+            .banner-slide h2 {
                 font-size: 16px;
                 font-weight: 600;
                 margin-bottom: 5px;
             }
 
-            .slide p {
+            .banner-slide p {
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 1.3;
             }
 
-            .cta-button {
+            .action-button {
                 display: inline-block;
                 padding: 8px 15px;
                 background-color: #ff0000;
@@ -147,27 +147,27 @@
                 margin-left: 15px;
             }
 
-            .slide:nth-child(2) .cta-button {
+            .banner-slide:nth-child(2) .action-button {
                 background-color: white;
                 color: #ff0000;
             }
 
-            .slide:nth-child(3) .cta-button {
+            .banner-slide:nth-child(3) .action-button {
                 background-color: #ff0000;
                 color: white;
             }
 
-            .cta-button:hover {
+            .action-button:hover {
                 background-color: #cc0000;
                 transform: translateY(-2px);
             }
 
-            .slide:nth-child(2) .cta-button:hover {
+            .banner-slide:nth-child(2) .action-button:hover {
                 background-color: #f0f0f0;
             }
 
             /* Border animation */
-            .border-animation {
+            .progress-indicator {
                 position: absolute;
                 bottom: 0;
                 left: 0;
@@ -188,20 +188,20 @@
         </style>
     </head>
     <body>
-        <div class="ad-container">
-            <div class="ad-content">
-                <div class="logo-section">
+        <div class="watermark-banner">
+            <div class="banner-wrapper">
+                <div class="brand-logo">
                     <a href="https://watermark.wrand.cc">
                         <img
-                            src="/white-bg-red-box-black-amp.png"
+                            src="https://watermark.wrand.cc/white-bg-red-box-black-amp.png"
                             alt="WaterMark Logo"
                         />
                     </a>
                 </div>
 
-                <div class="slides-container">
-                    <div class="slide">
-                        <div class="slide-content">
+                <div class="message-carousel">
+                    <div class="banner-slide">
+                        <div class="slide-message">
                             <h2>Powerful Brand Identity</h2>
                             <p>
                                 Crafting memorable brand experiences that drive
@@ -209,15 +209,15 @@
                             </p>
                         </div>
                         <a
-                            href="https://wrand.cc/watermark/"
+                            href="https://watermark.wrand.cc"
                             target="_blank"
-                            class="cta-button"
+                            class="action-button"
                             >Learn More</a
                         >
                     </div>
 
-                    <div class="slide">
-                        <div class="slide-content">
+                    <div class="banner-slide">
+                        <div class="slide-message">
                             <h2>Strategic Design</h2>
                             <p>
                                 Building meaningful connections through
@@ -225,15 +225,15 @@
                             </p>
                         </div>
                         <a
-                            href="https://wrand.cc/watermark/#contact"
+                            href="https://watermark.wrand.cc/#contact"
                             target="_blank"
-                            class="cta-button"
+                            class="action-button"
                             >Contact Us</a
                         >
                     </div>
 
-                    <div class="slide">
-                        <div class="slide-content">
+                    <div class="banner-slide">
+                        <div class="slide-message">
                             <h2>Complete Brand Systems</h2>
                             <p>
                                 From logo design to comprehensive brand
@@ -241,15 +241,15 @@
                             </p>
                         </div>
                         <a
-                            href="https://wrand.cc/watermark/#applications"
+                            href="https://watermark.wrand.cc/#applications"
                             target="_blank"
-                            class="cta-button"
+                            class="action-button"
                             >Services</a
                         >
                     </div>
                 </div>
             </div>
-            <div class="border-animation"></div>
+            <div class="progress-indicator"></div>
         </div>
     </body>
 </html>
