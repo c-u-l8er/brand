@@ -1,7 +1,8 @@
-# WRANDTEL Brand Guidelines
+
+# WaterMark Brand Guidelines
 
 ## Brand Story
-WRANDTEL combines strength and connection, represented by our distinctive ampersand logo. The "&" symbolizes partnerships, collaboration, and the seamless integration of services we provide. The square frame represents stability, reliability, and the structured approach we bring to every project.
+WaterMark combines strength and connection, represented by our distinctive ampersand logo. The "&" symbolizes partnerships, collaboration, and the seamless integration of services we provide. The square frame represents stability, reliability, and the structured approach we bring to every project.
 
 ## Logo
 Our primary logo features a stylized ampersand enclosed within a square frame, creating a balanced and memorable visual identity that embodies our commitment to connecting ideas, people, and solutions.
@@ -22,26 +23,26 @@ To ensure legibility, the logo should never appear smaller than 24px (digital) o
 ## Color Palette
 
 ### Primary Colors
-- **WRANDTEL Red**: #FF0000
-  - RGB: 255, 0, 0
-  - CMYK: 0, 100, 100, 0
-  - Use for primary logo frame, accent elements, and calls to action
+- **WaterMark Red**: #FF0000
+- RGB: 255, 0, 0
+- CMYK: 0, 100, 100, 0
+- Use for primary logo frame, accent elements, and calls to action
 
 - **Black**: #000000
-  - RGB: 0, 0, 0
-  - CMYK: 0, 0, 0, 100
-  - Use for ampersand, text, and content elements
+- RGB: 0, 0, 0
+- CMYK: 0, 0, 0, 100
+- Use for ampersand, text, and content elements
 
 ### Secondary Colors
 - **White**: #FFFFFF
-  - RGB: 255, 255, 255
-  - CMYK: 0, 0, 0, 0
-  - Use for backgrounds, frames, and contrast elements
+- RGB: 255, 255, 255
+- CMYK: 0, 0, 0, 0
+- Use for backgrounds, frames, and contrast elements
 
 - **Gray**: #808080
-  - RGB: 128, 128, 128
-  - CMYK: 0, 0, 0, 50
-  - Use for subtle backgrounds and secondary elements
+- RGB: 128, 128, 128
+- CMYK: 0, 0, 0, 50
+- Use for subtle backgrounds and secondary elements
 
 ## Typography
 
@@ -50,6 +51,8 @@ To ensure legibility, the logo should never appear smaller than 24px (digital) o
 - Headings: Montserrat Bold
 - Subheadings: Montserrat SemiBold
 - Body: Montserrat Regular
+- "Water" in the logo: Montserrat Light (300)
+- "Mark" in the logo: Montserrat Bold (700)
 
 ### Secondary Font
 **Open Sans**
