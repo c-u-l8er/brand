@@ -64,6 +64,54 @@
                 margin-left: 0 !important;
                 font-weight: 700 !important;
             }
+            
+            .header {
+                background: #000;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                text-align: center;
+                padding: 0;
+                z-index: 1000; /* Ensure header stays on top */
+                
+                font-family:
+                        Courier New,
+                        monospace;
+                        
+                line-height: 1.2;
+            }
+
+            .header a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .domain-nav {
+                background: #000;
+                color: #ccc;
+                margin-bottom: 0;
+            }
+
+            .domain-container {
+                width: 1150px;
+                margin: 0 auto;
+                padding: 4px;
+                font-size: 16px;
+                text-align: left;
+            }
+
+            .domain-nav a {
+                color: #ccc !important;
+                font-size: 1em !important;
+                font-weight: normal !important;
+                margin: 0 !important;
+            }
+
+            .domain-nav a:hover {
+                color: #fff !important;
+                text-decoration: underline;
+            }
 
             /* Header Styles */
             header {
@@ -72,6 +120,7 @@
                 position: fixed;
                 width: 100%;
                 z-index: 100;
+                top: 26px;
             }
 
             .header-content {
@@ -119,7 +168,7 @@
 
             /* Hero Section */
             .hero {
-                padding: 150px 0 100px;
+                padding: 185px 0 100px;
                 text-align: center;
                 background-color: var(--light-gray);
                 position: relative;
@@ -943,6 +992,35 @@
         </style>
     </head>
     <body>
+        <div class="header">
+            <div class="domain-nav">
+                <div class="domain-container">
+                    <a href="https://c-u-l8er.link">IDEATION</a> (<a href="https://watermark.wrand.cc">DESIGN</a> &#x2022;
+                    <a
+                        href="https://wrand.cc"
+                        >R&D</a
+                    >
+                    &#x2022;
+                    
+                    <a href="https://opensentience.org">PRODUCTION</a>)
+                    <div style="float: right">
+                        &#123;
+                        <a href="https://istrav.com">WEB SOLUTIONS</a> &#x2022;
+                        <a href="https://subvind.com">COMMUNITY SOLUTIONS</a>
+                        &#125;
+                        <a
+                            href="https://ticktickclock.com"
+                            style="
+                                font-family: Helvetica, sans-serif;
+                                line-height: 0.85em;
+                                font-size: 0.85em !important;
+                            "
+                            >!!</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
         <header>
             <div class="container">
                 <div class="header-content">
@@ -951,10 +1029,12 @@
                             src="white-bg-red-box-black-amp.png"
                             alt="WaterMark Logo"
                         />
-                        <span
-                            ><span class="thin">Water</span
-                            ><span class="bold">Mark</span></span
-                        >
+                        <a href="/" style="text-decoration: none; color: #000;">
+                            <span
+                                ><span class="thin">Water</span
+                                ><span class="bold">Mark</span></span
+                            >
+                        </a>
                     </div>
 
                     <div class="menu-toggle">
@@ -965,7 +1045,6 @@
 
                     <nav>
                         <ul>
-                            <li><a href="https://wrand.cc">Home</a></li>
                             <li><a href="#brand">Our Approach</a></li>
                             <li><a href="#logo">Design System</a></li>
                             <li><a href="#colors">Brand Elements</a></li>
